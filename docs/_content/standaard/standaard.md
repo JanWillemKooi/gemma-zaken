@@ -148,6 +148,10 @@ Componenten dienen events te publiceren naar (een)
 notificatierouteringcomponent(en) (NRC). De NRC MOET volledig de
 [`openapi.yaml`](../../../api-specificatie/nrc/openapi.yaml) implementeren.
 
+Consumers van events dienen de consumer
+[`openapi.yaml`](../../../api-specificatie/nrc/consumer-api/openapi.yaml) te
+implementeren.
+
 ### Kanalen
 
 Elke bron, wat bij de ZGW API's één-op-éen overeen komt met een component
